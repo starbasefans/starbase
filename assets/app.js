@@ -1,0 +1,41 @@
+// StarBase gallery + Adsterra Direct Link click flow
+// Flow: visitor clicks a photo/video -> Direct Link ad opens in a new tab FIRST -> the photo/video then opens here.
+(function(){
+  var DIRECT = (window.GF_DIRECT_LINK||"").trim();
+  function fireAd(){
+    if(DIRECT){ try{ window.open(DIRECT, "_blank"); }catch(e){} }
+  }
+  // Tabs (Photos / Videos)
+  var tabs=document.querySelectorAll(".tab");
+  tabs.forEach(function(t){
+    t.addEventListener("click",function(){
+      tabs.forEach(function(x){x.classList.remove("active")});
+      t.classList.add("active");
+      document.querySelectorAll("[data-pane]").forEach(function(p){
+        p.style.display = (p.getAttribute("data-pane")===t.getAttribute("data-tab")) ? "" : "none";
+      });
+    });
+  });
+  // Lightbox
+  var lb=document.getElementById("lightbox"), lbImg=document.getElementById("lb-img"),
+      lbVid=document.getElementById("lb-vid"), items=[], idx=0;
+  function collect(){ items=Array.prototype.slice.call(document.querySelectorAll(".pitem")); }
+  function show(i){
+    if(!items.length) return;
+    idx=(i+items.length)%items.length;
+    var el=items[idx], type=el.getAttribute("data-type"), src=el.getAttribute("data-full");
+    if(type==="video"){ lbImg.style.display="none"; lbVid.style.display=""; lbVid.src=src; lbVid.play&&lbVid.play(); }
+    else { lbVid.pause&&lbVid.pause(); lbVid.style.display="none"; lbImg.style.display=""; lbImg.src=src; }
+    lb.classList.add("open");
+  }
+  document.addEventListener("click",function(e){
+    var it=e.target.closest?e.target.closest(".pitem"):null;
+    if(it){ collect(); fireAd(); show(items.indexOf(it)); }
+  });
+  var close=document.getElementById("lb-close"), prev=document.getElementById("lb-prev"), next=document.getElementById("lb-next");
+  function hide(){ lb.classList.remove("open"); if(lbVid){lbVid.pause&&lbVid.pause(); lbVid.removeAttribute("src"); lbVid.load&&lbVid.load();} }
+  close&&close.addEventListener("click",hide);
+  prev&&prev.addEventListener("click",function(){ fireAd(); show(idx-1); });
+  next&&next.addEventListener("click",function(){ fireAd(); show(idx+1); });
+  document.addEventListener("keydown",function(e){ if(e.key==="Escape") hide(); });
+})();
