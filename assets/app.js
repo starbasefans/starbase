@@ -1,9 +1,10 @@
 // StarBase gallery + Adsterra Direct Link click flow
 // Flow: visitor clicks a photo/video -> Direct Link ad opens in a new tab FIRST -> the photo/video then opens here.
 (function(){
-  var DIRECT = (window.GF_DIRECT_LINK||"").trim();
+  // Direct Link rotation: every click opens one of the configured links, picked at random.
+  var LINKS = (window.GF_DIRECT_LINKS && window.GF_DIRECT_LINKS.length ? window.GF_DIRECT_LINKS : (window.GF_DIRECT_LINK ? [window.GF_DIRECT_LINK] : []));
   function fireAd(){
-    if(DIRECT){ try{ window.open(DIRECT, "_blank"); }catch(e){} }
+    if(LINKS.length){ try{ window.open(LINKS[Math.floor(Math.random()*LINKS.length)], "_blank"); }catch(e){} }
   }
   // Tabs (Photos / Videos)
   var tabs=document.querySelectorAll(".tab");
