@@ -23,7 +23,7 @@
   // Video ad overlay: a transparent layer over the video that re-arms every 6s.
   // Armed + user clicks anywhere on the video (pause, play, seek) -> Direct Link opens,
   // layer hides for 6s (video controls work normally), then it re-arms. Video only, never photos.
-  var AD_REARM_MS=6000, adTimer=null, adArmed=false, adLayer=document.getElementById("lb-ad");
+  var AD_REARM_MS=10000, adTimer=null, adArmed=false, adLayer=document.getElementById("lb-ad");
   function adDisarm(){ adArmed=false; if(adLayer) adLayer.style.display="none"; if(adTimer){ clearTimeout(adTimer); adTimer=null; } }
   function adArm(){ adArmed=true; if(adLayer) adLayer.style.display=""; }
   function adSchedule(){ adDisarm(); adTimer=setTimeout(adArm, AD_REARM_MS); }
