@@ -52,5 +52,7 @@ footer .fcopy{margin-top:14px;font-size:12px;opacity:.82}
 .lightbox img,.lightbox video{max-width:100%;max-height:78vh;border-radius:10px;box-shadow:0 4px 24px rgba(20,20,40,.15)}
 .lightbox .close{position:absolute;top:14px;right:18px;font-size:30px;color:#16161a;background:none;border:none;cursor:pointer}
 .lightbox .nav{display:flex;gap:10px;margin-top:16px}
+.lb-vwrap{position:relative;max-width:100%}
+.lb-ad{position:absolute;inset:0;z-index:5;cursor:pointer;display:none}
 .lightbox .nav button{background:#f2f2f4;color:#16161a;border:1px solid #dcdce2;padding:10px 22px;border-radius:999px;font-weight:700;cursor:pointer}
 .empty{color:var(--muted);text-align:center;padding:34px 10px;font-size:14.5px}
