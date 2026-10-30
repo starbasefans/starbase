@@ -1,0 +1,100 @@
+
+<style>
+.gl-wrap{font-family:'Segoe UI',Arial,sans-serif;background:#fff;color:#222;max-width:1100px;margin:0 auto;padding:10px}
+.gl-cover{width:100%;max-height:420px;object-fit:cover;object-position:center 18%;border-radius:14px;display:block}
+.gl-head{text-align:center;padding:18px 8px 6px}
+.gl-head h2{margin:6px 0;font-size:28px;background:linear-gradient(90deg,#d81b60,#8e24aa);-webkit-background-clip:text;background-clip:text;color:transparent}
+.gl-counts{color:#777;font-size:14px;margin-bottom:10px}
+.gl-tabs{display:flex;justify-content:center;gap:10px;margin:14px 0}
+.gl-tab{border:2px solid #d81b60;background:#fff;color:#d81b60;font-weight:700;padding:9px 30px;border-radius:30px;cursor:pointer;font-size:15px}
+.gl-tab.on{background:linear-gradient(90deg,#d81b60,#8e24aa);color:#fff;border-color:transparent}
+.gl-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.gl-grid img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:10px;cursor:pointer;display:block;background:#f4f4f4}
+.gl-grid video{width:100%;aspect-ratio:16/10;border-radius:10px;background:#000}
+.gl-lb{position:fixed;inset:0;background:rgba(0,0,0,.92);display:none;align-items:center;justify-content:center;z-index:9999}
+.gl-lb img{max-width:94vw;max-height:90vh;border-radius:8px}
+.gl-lb .x{position:absolute;top:14px;right:20px;color:#fff;font-size:34px;cursor:pointer}
+.gl-lb .pn{position:absolute;top:50%;transform:translateY(-50%);color:#fff;font-size:44px;cursor:pointer;background:rgba(216,27,96,.55);border-radius:50%;width:56px;height:56px;display:flex;align-items:center;justify-content:center}
+.gl-lb .pv{left:14px}.gl-lb .nx{right:14px}
+</style>
+
+<div class="gl-wrap">
+<img class="gl-cover" loading="lazy" src="https://starbasefans.pages.dev/assets/covers/nina-joy.jpg" alt="Nina Joy"/>
+<div class="gl-head"><h2>Nina Joy</h2><div class="gl-counts">50 Photos &bull; 4 Videos</div></div>
+<div class="gl-tabs"><button class="gl-tab on" id="gninajoy-tabp">Photos</button><button class="gl-tab" id="gninajoy-tabv">Videos</button></div>
+<div class="gl-grid" id="gninajoy-photos">
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/001.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/002.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/003.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/004.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/005.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/006.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/007.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/008.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/009.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/010.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/011.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/012.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/013.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/014.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/015.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/016.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/017.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/018.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/019.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/020.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/021.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/022.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/023.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/024.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/025.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/026.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/027.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/028.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/029.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/030.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/031.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/032.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/033.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/034.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/035.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/036.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/037.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/038.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/039.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/040.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/041.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/042.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/043.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/044.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/045.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/046.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/047.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/048.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/049.jpg" alt="Nina Joy"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/nina-joy/050.jpg" alt="Nina Joy"/>
+</div>
+<div class="gl-grid" id="gninajoy-videos" style="display:none">
+<video preload="none" controls poster="https://starbasefans.pages.dev/media/nina-joy/v001.jpg"><source src="https://starbasefans.pages.dev/media/nina-joy/v001.mp4" type="video/mp4"/></video>
+<video preload="none" controls poster="https://starbasefans.pages.dev/media/nina-joy/v002.jpg"><source src="https://starbasefans.pages.dev/media/nina-joy/v002.mp4" type="video/mp4"/></video>
+<video preload="none" controls poster="https://starbasefans.pages.dev/media/nina-joy/v003.jpg"><source src="https://starbasefans.pages.dev/media/nina-joy/v003.mp4" type="video/mp4"/></video>
+<video preload="none" controls poster="https://starbasefans.pages.dev/media/nina-joy/v004.jpg"><source src="https://starbasefans.pages.dev/media/nina-joy/v004.mp4" type="video/mp4"/></video>
+</div>
+<div class="gl-lb" id="gninajoy-lb"><span class="x">&times;</span><span class="pn pv">&#8249;</span><img src=""/><span class="pn nx">&#8250;</span></div>
+</div>
+
+<script>
+(function(){
+var box=document.getElementById('gninajoy-lb'),im=box.querySelector('img'),items=[],ix=0;
+function show(i){ix=(i+items.length)%items.length;im.src=items[ix];box.style.display='flex';}
+document.querySelectorAll('#gninajoy-photos img').forEach(function(el,i){items.push(el.src);el.onclick=function(){show(i);};});
+box.querySelector('.x').onclick=function(){box.style.display='none';};
+box.querySelector('.pv').onclick=function(e){e.stopPropagation();show(ix-1);};
+box.querySelector('.nx').onclick=function(e){e.stopPropagation();show(ix+1);};
+box.onclick=function(){box.style.display='none';};
+var tp=document.getElementById('gninajoy-tabp'),tv=document.getElementById('gninajoy-tabv'),
+    pp=document.getElementById('gninajoy-photos'),pv=document.getElementById('gninajoy-videos');
+tp.onclick=function(){pp.style.display='grid';pv.style.display='none';tp.classList.add('on');tv.classList.remove('on');};
+tv.onclick=function(){pv.style.display='grid';pp.style.display='none';tv.classList.add('on');tp.classList.remove('on');};
+})();
+</script>

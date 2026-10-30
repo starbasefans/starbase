@@ -1,0 +1,106 @@
+
+<style>
+.gl-wrap{font-family:'Segoe UI',Arial,sans-serif;background:#fff;color:#222;max-width:1100px;margin:0 auto;padding:10px}
+.gl-cover{width:100%;max-height:420px;object-fit:cover;object-position:center 18%;border-radius:14px;display:block}
+.gl-head{text-align:center;padding:18px 8px 6px}
+.gl-head h2{margin:6px 0;font-size:28px;background:linear-gradient(90deg,#d81b60,#8e24aa);-webkit-background-clip:text;background-clip:text;color:transparent}
+.gl-counts{color:#777;font-size:14px;margin-bottom:10px}
+.gl-tabs{display:flex;justify-content:center;gap:10px;margin:14px 0}
+.gl-tab{border:2px solid #d81b60;background:#fff;color:#d81b60;font-weight:700;padding:9px 30px;border-radius:30px;cursor:pointer;font-size:15px}
+.gl-tab.on{background:linear-gradient(90deg,#d81b60,#8e24aa);color:#fff;border-color:transparent}
+.gl-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.gl-grid img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:10px;cursor:pointer;display:block;background:#f4f4f4}
+.gl-grid video{width:100%;aspect-ratio:16/10;border-radius:10px;background:#000}
+.gl-lb{position:fixed;inset:0;background:rgba(0,0,0,.92);display:none;align-items:center;justify-content:center;z-index:9999}
+.gl-lb img{max-width:94vw;max-height:90vh;border-radius:8px}
+.gl-lb .x{position:absolute;top:14px;right:20px;color:#fff;font-size:34px;cursor:pointer}
+.gl-lb .pn{position:absolute;top:50%;transform:translateY(-50%);color:#fff;font-size:44px;cursor:pointer;background:rgba(216,27,96,.55);border-radius:50%;width:56px;height:56px;display:flex;align-items:center;justify-content:center}
+.gl-lb .pv{left:14px}.gl-lb .nx{right:14px}
+</style>
+
+<div class="gl-wrap">
+<img class="gl-cover" loading="lazy" src="https://starbasefans.pages.dev/assets/covers/barbie-stella.jpg" alt="Barbie stella"/>
+<div class="gl-head"><h2>Barbie stella</h2><div class="gl-counts">50 Photos &bull; 10 Videos</div></div>
+<div class="gl-tabs"><button class="gl-tab on" id="gbarbiestella-tabp">Photos</button><button class="gl-tab" id="gbarbiestella-tabv">Videos</button></div>
+<div class="gl-grid" id="gbarbiestella-photos">
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/001.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/002.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/003.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/004.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/005.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/006.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/007.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/008.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/009.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/010.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/011.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/012.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/013.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/014.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/015.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/016.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/017.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/018.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/019.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/020.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/021.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/022.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/023.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/024.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/025.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/026.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/027.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/028.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/029.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/030.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/031.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/032.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/033.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/034.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/035.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/036.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/037.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/038.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/039.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/040.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/041.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/042.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/043.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/044.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/045.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/046.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/047.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/048.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/049.jpg" alt="Barbie stella"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/barbie-stella/050.jpg" alt="Barbie stella"/>
+</div>
+<div class="gl-grid" id="gbarbiestella-videos" style="display:none">
+<video preload="none" controls poster="https://starbasefans.pages.dev/media/barbie-stella/v001.jpg"><source src="https://starbasefans.pages.dev/media/barbie-stella/v001.mp4" type="video/mp4"/></video>
+<video preload="none" controls poster="https://starbasefans.pages.dev/media/barbie-stella/v002.jpg"><source src="https://starbasefans.pages.dev/media/barbie-stella/v002.mp4" type="video/mp4"/></video>
+<video preload="none" controls poster="https://starbasefans.pages.dev/media/barbie-stella/v003.jpg"><source src="https://starbasefans.pages.dev/media/barbie-stella/v003.mp4" type="video/mp4"/></video>
+<video preload="none" controls poster="https://starbasefans.pages.dev/media/barbie-stella/v004.jpg"><source src="https://starbasefans.pages.dev/media/barbie-stella/v004.mp4" type="video/mp4"/></video>
+<video preload="none" controls poster="https://starbasefans.pages.dev/media/barbie-stella/v005.jpg"><source src="https://starbasefans.pages.dev/media/barbie-stella/v005.mp4" type="video/mp4"/></video>
+<video preload="none" controls poster="https://starbasefans.pages.dev/media/barbie-stella/v006.jpg"><source src="https://starbasefans.pages.dev/media/barbie-stella/v006.mp4" type="video/mp4"/></video>
+<video preload="none" controls poster="https://starbasefans.pages.dev/media/barbie-stella/v007.jpg"><source src="https://starbasefans.pages.dev/media/barbie-stella/v007.mp4" type="video/mp4"/></video>
+<video preload="none" controls poster="https://starbasefans.pages.dev/media/barbie-stella/v008.jpg"><source src="https://starbasefans.pages.dev/media/barbie-stella/v008.mp4" type="video/mp4"/></video>
+<video preload="none" controls poster="https://starbasefans.pages.dev/media/barbie-stella/v009.jpg"><source src="https://starbasefans.pages.dev/media/barbie-stella/v009.mp4" type="video/mp4"/></video>
+<video preload="none" controls poster="https://starbasefans.pages.dev/media/barbie-stella/v010.jpg"><source src="https://starbasefans.pages.dev/media/barbie-stella/v010.mp4" type="video/mp4"/></video>
+</div>
+<div class="gl-lb" id="gbarbiestella-lb"><span class="x">&times;</span><span class="pn pv">&#8249;</span><img src=""/><span class="pn nx">&#8250;</span></div>
+</div>
+
+<script>
+(function(){
+var box=document.getElementById('gbarbiestella-lb'),im=box.querySelector('img'),items=[],ix=0;
+function show(i){ix=(i+items.length)%items.length;im.src=items[ix];box.style.display='flex';}
+document.querySelectorAll('#gbarbiestella-photos img').forEach(function(el,i){items.push(el.src);el.onclick=function(){show(i);};});
+box.querySelector('.x').onclick=function(){box.style.display='none';};
+box.querySelector('.pv').onclick=function(e){e.stopPropagation();show(ix-1);};
+box.querySelector('.nx').onclick=function(e){e.stopPropagation();show(ix+1);};
+box.onclick=function(){box.style.display='none';};
+var tp=document.getElementById('gbarbiestella-tabp'),tv=document.getElementById('gbarbiestella-tabv'),
+    pp=document.getElementById('gbarbiestella-photos'),pv=document.getElementById('gbarbiestella-videos');
+tp.onclick=function(){pp.style.display='grid';pv.style.display='none';tp.classList.add('on');tv.classList.remove('on');};
+tv.onclick=function(){pv.style.display='grid';pp.style.display='none';tv.classList.add('on');tp.classList.remove('on');};
+})();
+</script>
