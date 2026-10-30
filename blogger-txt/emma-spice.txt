@@ -1,0 +1,108 @@
+
+<style>
+.gl-wrap{font-family:'Segoe UI',Arial,sans-serif;background:#fff;color:#222;max-width:1100px;margin:0 auto;padding:10px}
+.gl-cover{width:100%;max-height:420px;object-fit:cover;object-position:center 18%;border-radius:14px;display:block}
+.gl-head{text-align:center;padding:18px 8px 6px}
+.gl-head h2{margin:6px 0;font-size:28px;background:linear-gradient(90deg,#d81b60,#8e24aa);-webkit-background-clip:text;background-clip:text;color:transparent}
+.gl-counts{color:#777;font-size:14px;margin-bottom:10px}
+.gl-tabs{display:flex;justify-content:center;gap:10px;margin:14px 0}
+.gl-tab{border:2px solid #d81b60;background:#fff;color:#d81b60;font-weight:700;padding:9px 30px;border-radius:30px;cursor:pointer;font-size:15px}
+.gl-tab.on{background:linear-gradient(90deg,#d81b60,#8e24aa);color:#fff;border-color:transparent}
+.gl-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.gl-grid img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:10px;cursor:pointer;display:block;background:#f4f4f4}
+.gl-grid video{width:100%;aspect-ratio:16/10;border-radius:10px;background:#000}
+.gl-lb{position:fixed;inset:0;background:rgba(0,0,0,.92);display:none;align-items:center;justify-content:center;z-index:9999}
+.gl-lb img{max-width:94vw;max-height:90vh;border-radius:8px}
+.gl-lb .x{position:absolute;top:14px;right:20px;color:#fff;font-size:34px;cursor:pointer}
+.gl-lb .pn{position:absolute;top:50%;transform:translateY(-50%);color:#fff;font-size:44px;cursor:pointer;background:rgba(216,27,96,.55);border-radius:50%;width:56px;height:56px;display:flex;align-items:center;justify-content:center}
+.gl-lb .pv{left:14px}.gl-lb .nx{right:14px}
+</style>
+
+<div class="gl-wrap">
+<img class="gl-cover" loading="lazy" src="https://starbasefans.pages.dev/assets/covers/emma-spice.jpg" alt="Emma Spice"/>
+<div class="gl-head"><h2>Emma Spice</h2><div class="gl-counts">50 Photos &bull; 12 Videos</div></div>
+<div class="gl-tabs"><button class="gl-tab on" id="gemmaspice-tabp">Photos</button><button class="gl-tab" id="gemmaspice-tabv">Videos</button></div>
+<div class="gl-grid" id="gemmaspice-photos">
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/001.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/002.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/003.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/004.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/005.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/006.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/007.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/008.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/009.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/010.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/011.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/012.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/013.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/014.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/015.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/016.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/017.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/018.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/019.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/020.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/021.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/022.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/023.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/024.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/025.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/026.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/027.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/028.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/029.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/030.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/031.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/032.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/033.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/034.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/035.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/036.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/037.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/038.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/039.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/040.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/041.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/042.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/043.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/044.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/045.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/046.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/047.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/048.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/049.jpg" alt="Emma Spice"/>
+<img loading="lazy" src="https://starbasefans.pages.dev/media/emma-spice/050.jpg" alt="Emma Spice"/>
+</div>
+<div class="gl-grid" id="gemmaspice-videos" style="display:none">
+<video preload="none" controls poster="https://starbasefans.pages.dev/media/emma-spice/v001.jpg"><source src="https://starbasefans.pages.dev/media/emma-spice/v001.mp4" type="video/mp4"/></video>
+<video preload="none" controls poster="https://starbasefans.pages.dev/media/emma-spice/v002.jpg"><source src="https://starbasefans.pages.dev/media/emma-spice/v002.mp4" type="video/mp4"/></video>
+<video preload="none" controls poster="https://starbasefans.pages.dev/media/emma-spice/v003.jpg"><source src="https://starbasefans.pages.dev/media/emma-spice/v003.mp4" type="video/mp4"/></video>
+<video preload="none" controls poster="https://starbasefans.pages.dev/media/emma-spice/v004.jpg"><source src="https://starbasefans.pages.dev/media/emma-spice/v004.mp4" type="video/mp4"/></video>
+<video preload="none" controls poster="https://starbasefans.pages.dev/media/emma-spice/v005.jpg"><source src="https://starbasefans.pages.dev/media/emma-spice/v005.mp4" type="video/mp4"/></video>
+<video preload="none" controls poster="https://starbasefans.pages.dev/media/emma-spice/v006.jpg"><source src="https://starbasefans.pages.dev/media/emma-spice/v006.mp4" type="video/mp4"/></video>
+<video preload="none" controls poster="https://starbasefans.pages.dev/media/emma-spice/v007.jpg"><source src="https://starbasefans.pages.dev/media/emma-spice/v007.mp4" type="video/mp4"/></video>
+<video preload="none" controls poster="https://starbasefans.pages.dev/media/emma-spice/v008.jpg"><source src="https://starbasefans.pages.dev/media/emma-spice/v008.mp4" type="video/mp4"/></video>
+<video preload="none" controls poster="https://starbasefans.pages.dev/media/emma-spice/v009.jpg"><source src="https://starbasefans.pages.dev/media/emma-spice/v009.mp4" type="video/mp4"/></video>
+<video preload="none" controls poster="https://starbasefans.pages.dev/media/emma-spice/v010.jpg"><source src="https://starbasefans.pages.dev/media/emma-spice/v010.mp4" type="video/mp4"/></video>
+<video preload="none" controls poster="https://starbasefans.pages.dev/media/emma-spice/v011.jpg"><source src="https://starbasefans.pages.dev/media/emma-spice/v011.mp4" type="video/mp4"/></video>
+<video preload="none" controls poster="https://starbasefans.pages.dev/media/emma-spice/v012.jpg"><source src="https://starbasefans.pages.dev/media/emma-spice/v012.mp4" type="video/mp4"/></video>
+</div>
+<div class="gl-lb" id="gemmaspice-lb"><span class="x">&times;</span><span class="pn pv">&#8249;</span><img src=""/><span class="pn nx">&#8250;</span></div>
+</div>
+
+<script>
+(function(){
+var box=document.getElementById('gemmaspice-lb'),im=box.querySelector('img'),items=[],ix=0;
+function show(i){ix=(i+items.length)%items.length;im.src=items[ix];box.style.display='flex';}
+document.querySelectorAll('#gemmaspice-photos img').forEach(function(el,i){items.push(el.src);el.onclick=function(){show(i);};});
+box.querySelector('.x').onclick=function(){box.style.display='none';};
+box.querySelector('.pv').onclick=function(e){e.stopPropagation();show(ix-1);};
+box.querySelector('.nx').onclick=function(e){e.stopPropagation();show(ix+1);};
+box.onclick=function(){box.style.display='none';};
+var tp=document.getElementById('gemmaspice-tabp'),tv=document.getElementById('gemmaspice-tabv'),
+    pp=document.getElementById('gemmaspice-photos'),pv=document.getElementById('gemmaspice-videos');
+tp.onclick=function(){pp.style.display='grid';pv.style.display='none';tp.classList.add('on');tv.classList.remove('on');};
+tv.onclick=function(){pv.style.display='grid';pp.style.display='none';tv.classList.add('on');tp.classList.remove('on');};
+})();
+</script>
