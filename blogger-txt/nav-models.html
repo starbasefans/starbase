@@ -101,4 +101,18 @@
 </a>
 </div>
 </section>
+<script>
+/* Post pages par 16-cards wala models section chhupao (nav rehne do);
+   Models link ko homepage ke #gl-models par point karao */
+(function(){
+  var p=window.location.pathname;
+  if(p!=='/'&&p!=='/index.html'){
+    var s=document.getElementById('gl-models');
+    if(s){s.style.display='none';}
+    var nav=document.querySelector('.gl-nav');
+    if(nav){var a=nav.querySelector('a[href="#gl-models"]');
+      if(a){a.href='https://glamelle-blog.blogspot.com/#gl-models';}}
+  }
+})();
+</script>
 <!-- ===== END GLAMELLE NAV + MODELS ===== -->
