@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://starbasefans.pages.dev/sitemap.xml
